@@ -29,6 +29,8 @@ public class Main {
          System.out.println ("Total waight boxers"+totalBoxerWeight+"kg");
       var differenceBoxerWeight=secondBoxerWeight-firstBoxerWeight;
          System.out.println ("waight difference boxers"+differenceBoxerWeight+"kg");
+      var differenceWeightFanction=secondBoxerWeight%firstBoxerWeight;
+         System.out.println ("разница в весе боксеров"+differenceWeightFanction+"kg");
 
      }
 }
